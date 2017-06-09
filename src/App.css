@@ -2,12 +2,12 @@
 ul,li{list-style:none;}
 .container{
     width:50%;
-    margin:100px auto;
+    margin:180px auto;
 }
 .container .title{
     text-align: center;
     color:#C1181B;
-    width:705px;
+    width:100%;
 }
 .container .search{
     margin-top:20px;
@@ -15,7 +15,7 @@ ul,li{list-style:none;}
 .container .search input{
     font-size:12px;
     height:44px;
-    width:590px;
+    width:90%;
     box-sizing: border-box;
     border:1px solid #CCC;
     outline: none;
@@ -25,7 +25,7 @@ ul,li{list-style:none;}
     background-color: #3388FF;
     color:#FFF;
     text-align: center;
-    width:115px;
+    width:10%;
     height:44px;
     line-height: 44px;
     border:none;
@@ -39,4 +39,11 @@ ul,li{list-style:none;}
 
 .container .suggest ul{
     padding-left:5px;
+}
+.container .suggest ul li{
+    line-height: 150%;
+    cursor: pointer;
+}
+.container .suggest ul li:hover{
+    background-color: #EEE;
 }
